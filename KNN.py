@@ -14,7 +14,7 @@ query_x = np.array([2, 3])
 
 
 def distance(x1, x2):
-    return np.sqrt(sum(x1 - x2)**2)
+    return np.sqrt(sum((x1 - x2)**2))
 
 
 def knn(X, Y, query_point, k=10):
